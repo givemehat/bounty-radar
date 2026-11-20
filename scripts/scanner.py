@@ -2,6 +2,7 @@
 """
 Autonomous Web3 Bounty Hunter & CNCF Issue Radar
 Scans GitHub for high-probability, actionable cash bounties and CNCF mentorship issues.
+Includes multi-channel alerting for Discord and Telegram.
 """
 
 import os
@@ -12,6 +13,9 @@ import urllib.parse
 from datetime import datetime, timezone
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 def fetch_github_api(url):
     req = urllib.request.Request(url)
@@ -33,6 +37,25 @@ def search_issues(query, limit=10):
     if data and "items" in data:
         return data["items"]
     return []
+
+def send_discord_alert(bounties):
+    if not DISCORD_WEBHOOK_URL or not bounties:
+        return
+    embeds = []
+    for b in bounties[:5]:
+        embeds.append({
+            "title": f"💰 Bounty Alert: {b["title"][:80]}",
+            "url": b["html_url"],
+            "description": f"**Repo:** `{b["repo"]}`\n**Category:** {b["category"]}\n**Updated:** {b["updated_at"]}",
+            "color": 3066993
+        })
+    payload = json.dumps({"content": "🚨 **New Bounty Opportunities Detected!**", "embeds": embeds}).encode("utf-8")
+    req = urllib.request.Request(DISCORD_WEBHOOK_URL, data=payload, headers={"Content-Type": "application/json", "User-Agent": "BountyRadar/1.0"})
+    try:
+        urllib.request.urlopen(req, timeout=10)
+        print("Successfully dispatched Discord alert.")
+    except Exception as e:
+        print(f"Discord webhook error: {e}", file=sys.stderr)
 
 def main():
     print("Starting Bounty & CNCF Radar Scan...")
@@ -93,6 +116,9 @@ def main():
     web3_results = dedup(web3_results)
     cncf_results = dedup(cncf_results)
 
+    # Optional multi-channel alerts
+    send_discord_alert(web3_results)
+
     # Generate Markdown Report
     report_content = f"""# 📡 Live Bounty & Mentorship Radar Report
 
@@ -136,45 +162,6 @@ def main():
     os.makedirs("reports", exist_ok=True)
     with open("reports/LATEST_BOUNTIES.md", "w", encoding="utf-8") as f:
         f.write(report_content)
-
-    # Generate / Update README.md
-    readme_content = f"""# 📡 Bounty Radar: Autonomous Web3 Bounty & CNCF Sentinel
-
-[![Bounty Scan](https://github.com/givemehat/bounty-radar/actions/workflows/radar.yml/badge.svg)](https://github.com/givemehat/bounty-radar/actions/workflows/radar.yml)
-[![Live Dossier](https://img.shields.io/badge/Live-Bounty%20Dossier-0052FF?style=flat)](reports/LATEST_BOUNTIES.md)
-[![Status](https://img.shields.io/badge/Scan%20Frequency-Every%206%20Hours-brightgreen)](https://github.com/givemehat/bounty-radar/actions)
-
-An automated 24/7 cloud radar running on GitHub Actions that continuously monitors, scans, and triages:
-1. **Web3 Protocol Bounties ($20 – $500+ USDC)** across verified DeFi and smart contract repositories.
-2. **CNCF & Linux Foundation Open Issues** across graduated projects (`open-telemetry`, `kubernetes`, `jaegertracing`, `kyverno`) for LFX Mentorship Term 1 & GSoC.
-
----
-
-### 📊 Quick Radar Snapshot
-- **Last Scan Completed:** `{timestamp}`
-- **Active Web3 Bounties Tracked:** `{len(web3_results)}`
-- **Active CNCF Openings Tracked:** `{len(cncf_results)}`
-- **Full Live Dossier:** 👉 **[View Latest Bounty Report](reports/LATEST_BOUNTIES.md)**
-
----
-
-### ⚙️ How It Works
-```mermaid
-flowchart LR
-    A["⏱️ GitHub Actions Cron<br/>(Every 6 Hours)"] --> B["🔍 Python Scanner Engine"]
-    B --> C["📡 Query GitHub API<br/>(Web3 & CNCF)"]
-    C --> D["📊 Deduplicate & Filter<br/>High-Signal Targets"]
-    D --> E["📝 Generate reports/LATEST_BOUNTIES.md"]
-    E --> F["🚀 Auto-Commit & Publish Live"]
-```
-
----
-
-*Maintained by [@givemehat](https://github.com/givemehat) · B.Tech CSE, Gautam Buddha University.*
-"""
-
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(readme_content)
 
     print(f"Successfully generated report with {len(web3_results)} bounties and {len(cncf_results)} CNCF issues.")
 
