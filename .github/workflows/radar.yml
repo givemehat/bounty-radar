@@ -1,0 +1,40 @@
+name: Bounty & CNCF Radar Scan
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Radar Scanner
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 scripts/scanner.py
+
+      - name: Commit & Push Updated Reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md reports/LATEST_BOUNTIES.md
+          if git diff --staged --quiet; then
+            echo "No changes in radar report."
+          else
+            git commit -m "chore(radar): update latest bounty & CNCF opportunities [skip ci]"
+            git push
+          fi
