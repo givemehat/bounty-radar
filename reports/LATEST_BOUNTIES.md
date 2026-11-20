@@ -1,6 +1,6 @@
 # 📡 Live Bounty & Mentorship Radar Report
 
-> **Last Updated:** `2026-11-20 05:20:43 UTC`  
+> **Last Updated:** `2026-11-20 05:38:27 UTC`  
 > **Autonomous Engine:** GitHub Actions 24/7 Cloud Sentinel
 
 ---
@@ -9,16 +9,16 @@
 
 | Project / Repo | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
-| `Scottcjn/rustchain-bounties` | [[BOUNTY: 5 RTC] Adversarial Miner Self-Test — Try to Fo...](https://github.com/Scottcjn/rustchain-bounties/issues/13953) | 39 | 2026-11-20 | [Inspect Issue](https://github.com/Scottcjn/rustchain-bounties/issues/13953) |
+| `Scottcjn/rustchain-bounties` | [[BOUNTY: 5 RTC] Adversarial Miner Self-Test — Try to Fo...](https://github.com/Scottcjn/rustchain-bounties/issues/13953) | 40 | 2026-11-20 | [Inspect Issue](https://github.com/Scottcjn/rustchain-bounties/issues/13953) |
 | `hanzoai/agents` | [[Bounty #29] Evidence-ordering robustness · agents (Los...](https://github.com/hanzoai/agents/issues/83) | 3 | 2026-11-20 | [Inspect Issue](https://github.com/hanzoai/agents/issues/83) |
 | `hanzoai/cloud` | [Permissionless x402 payments and provider settlement...](https://github.com/hanzoai/cloud/issues/16) | 3 | 2026-11-20 | [Inspect Issue](https://github.com/hanzoai/cloud/issues/16) |
 | `Fractal-Neurons/pacta` | [[Wave 3: 2 × $20 USDC | 3-Year Protocol Trajectory & In...](https://github.com/Fractal-Neurons/pacta/issues/118) | 6 | 2026-11-20 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/118) |
 | `SecureBananaLabs/bug-bounty` | [Low Handing Fruit Automation...](https://github.com/SecureBananaLabs/bug-bounty/issues/743) | 1456 | 2026-11-20 | [Inspect Issue](https://github.com/SecureBananaLabs/bug-bounty/issues/743) |
-| `safetrustcr/dApp-SafeTrust` | [fix(api): use trustlessWorkEscrows root fields that Has...](https://github.com/safetrustcr/dApp-SafeTrust/issues/564) | 6 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/564) |
-| `safetrustcr/dApp-SafeTrust` | [fix(infra): track safetrust and hotel_industry sources ...](https://github.com/safetrustcr/dApp-SafeTrust/issues/565) | 7 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/565) |
-| `safetrustcr/dApp-SafeTrust` | [feat(frontend): wire the guest hotel booking flow to th...](https://github.com/safetrustcr/dApp-SafeTrust/issues/568) | 7 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/568) |
-| `safetrustcr/dApp-SafeTrust` | [fix(hasura): escrow_pending_actions table is not tracke...](https://github.com/safetrustcr/dApp-SafeTrust/issues/563) | 11 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/563) |
-| `safetrustcr/dApp-SafeTrust` | [fix(auth): align JWT roles (guest/host) with Hasura per...](https://github.com/safetrustcr/dApp-SafeTrust/issues/566) | 7 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/566) |
+| `safetrustcr/frontend-SafeTrust` | [Escrow lifecycle UI: stay completed, approve, release a...](https://github.com/safetrustcr/frontend-SafeTrust/issues/758) | 9 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/758) |
+| `safetrustcr/frontend-SafeTrust` | [Wallet readiness UI: USDC trustline checks before the g...](https://github.com/safetrustcr/frontend-SafeTrust/issues/762) | 2 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/762) |
+| `safetrustcr/frontend-SafeTrust` | [Escrow status page and "My bookings" for guests and hos...](https://github.com/safetrustcr/frontend-SafeTrust/issues/760) | 10 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/760) |
+| `safetrustcr/frontend-SafeTrust` | [Network clarity UI: show testnet vs mainnet everywhere ...](https://github.com/safetrustcr/frontend-SafeTrust/issues/761) | 4 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/761) |
+| `safetrustcr/frontend-SafeTrust` | [Checkout UX: show where the money goes (fee breakdown a...](https://github.com/safetrustcr/frontend-SafeTrust/issues/756) | 3 | 2026-11-20 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/756) |
 | `Trust-Analysis/Tokenized-Fractional-` | [[Docs] Fix README inaccuracies: duplicate table header,...](https://github.com/Trust-Analysis/Tokenized-Fractional-/issues/1059) | 3 | 2026-11-19 | [Inspect Issue](https://github.com/Trust-Analysis/Tokenized-Fractional-/issues/1059) |
 | `Trust-Analysis/Tokenized-Fractional-` | [OpenTelemetry sampling uses Math.random() per service i...](https://github.com/Trust-Analysis/Tokenized-Fractional-/issues/1117) | 0 | 2026-11-19 | [Inspect Issue](https://github.com/Trust-Analysis/Tokenized-Fractional-/issues/1117) |
 

@@ -11,7 +11,7 @@ An automated 24/7 cloud radar running on GitHub Actions that continuously monito
 ---
 
 ### 📊 Quick Radar Snapshot
-- **Last Scan Completed:** `2026-11-20 05:20:43 UTC`
+- **Last Scan Completed:** `2026-11-20 05:38:27 UTC`
 - **Active Web3 Bounties Tracked:** `15`
 - **Active CNCF Openings Tracked:** `20`
 - **Full Live Dossier:** 👉 **[View Latest Bounty Report](reports/LATEST_BOUNTIES.md)**
