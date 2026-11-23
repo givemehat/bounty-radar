@@ -44,9 +44,9 @@ def send_discord_alert(bounties):
     embeds = []
     for b in bounties[:5]:
         embeds.append({
-            "title": f"💰 Bounty Alert: {b["title"][:80]}",
+            "title": f"💰 Bounty Alert: {b['title'][:80]}",
             "url": b["html_url"],
-            "description": f"**Repo:** `{b["repo"]}`\n**Category:** {b["category"]}\n**Updated:** {b["updated_at"]}",
+            "description": f"**Repo:** `{b['repo']}`\n**Category:** {b['category']}\n**Updated:** {b['updated_at']}",
             "color": 3066993
         })
     payload = json.dumps({"content": "🚨 **New Bounty Opportunities Detected!**", "embeds": embeds}).encode("utf-8")
