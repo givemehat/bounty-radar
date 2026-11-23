@@ -1,6 +1,6 @@
 # 📡 Live Bounty & Mentorship Radar Report
 
-> **Last Updated:** `2026-11-23 18:14:08 UTC`  
+> **Last Updated:** `2026-11-23 18:51:43 UTC`  
 > **Autonomous Engine:** GitHub Actions 24/7 Cloud Sentinel
 
 ---
@@ -9,6 +9,7 @@
 
 | Project / Repo | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
+| `XHToken/Spark-X2.6` | [HER Hack-Astron #8 | Spark × SkillHub Agent Skills Chal...](https://github.com/XHToken/Spark-X2.6/issues/32) | 9 | 2026-11-23 | [Inspect Issue](https://github.com/XHToken/Spark-X2.6/issues/32) |
 | `Fractal-Neurons/pacta` | [[Wave 4: 24 × $1.00 USDC | Observed Catalogue] Batch 1 ...](https://github.com/Fractal-Neurons/pacta/issues/158) | 7 | 2026-11-23 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/158) |
 | `IES-BoilerRoom/pcie-tlp-credit-flow-gate` | [($350) perf/fix: Align Posted/Non-Posted header credit ...](https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2) | 2 | 2026-11-23 | [Inspect Issue](https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2) |
 | `EliCunninghamDev/haiku-core` | [[BOUNTY] Add printHaiku() — a beautiful haiku to the co...](https://github.com/EliCunninghamDev/haiku-core/issues/1) | 2 | 2026-11-23 | [Inspect Issue](https://github.com/EliCunninghamDev/haiku-core/issues/1) |
@@ -16,11 +17,10 @@
 | `Fractal-Neurons/pacta` | [[Wave 4: 15 × $2.00 USDC | Control-Plane Watch] 5 More ...](https://github.com/Fractal-Neurons/pacta/issues/159) | 5 | 2026-11-23 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/159) |
 | `Fractal-Neurons/pacta` | [[Wave 4: 5 × $2.00 USDC | Documents Changed] Open Now (...](https://github.com/Fractal-Neurons/pacta/issues/161) | 4 | 2026-11-23 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/161) |
 | `Fractal-Neurons/pacta` | [x402 verdict endpoint rejects valid EIP-3009 signatures...](https://github.com/Fractal-Neurons/pacta/issues/191) | 1 | 2026-11-22 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/191) |
+| `safetrustcr/dApp-SafeTrust` | [feat(escrow): one shared wallet-signing status componen...](https://github.com/safetrustcr/dApp-SafeTrust/issues/596) | 14 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/596) |
+| `safetrustcr/dApp-SafeTrust` | [feat(escrow): adopt guest-releases and fix role detecti...](https://github.com/safetrustcr/dApp-SafeTrust/issues/593) | 8 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/593) |
 | `safetrustcr/dApp-SafeTrust` | [feat(escrow): full lifecycle timeline from escrow_trans...](https://github.com/safetrustcr/dApp-SafeTrust/issues/594) | 6 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/594) |
 | `safetrustcr/dApp-SafeTrust` | [feat(escrow): open-dispute and resolver screens wired t...](https://github.com/safetrustcr/dApp-SafeTrust/issues/598) | 10 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/598) |
-| `safetrustcr/dApp-SafeTrust` | [feat(escrow): adopt guest-releases and fix role detecti...](https://github.com/safetrustcr/dApp-SafeTrust/issues/593) | 7 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/593) |
-| `safetrustcr/dApp-SafeTrust` | [feat(escrow): one shared wallet-signing status componen...](https://github.com/safetrustcr/dApp-SafeTrust/issues/596) | 13 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/596) |
-| `safetrustcr/dApp-SafeTrust` | [fix(api): register the Pollar wallet the user actually ...](https://github.com/safetrustcr/dApp-SafeTrust/issues/585) | 6 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/585) |
 
 ---
 
