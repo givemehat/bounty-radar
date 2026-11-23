@@ -13,6 +13,7 @@ import urllib.parse
 from datetime import datetime, timezone
 
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+MONGODB_URI = os.getenv("MONGODB_URI")
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
@@ -56,6 +57,45 @@ def send_discord_alert(bounties):
         print("Successfully dispatched Discord alert.")
     except Exception as e:
         print(f"Discord webhook error: {e}", file=sys.stderr)
+
+def persist_to_mongodb(web3_results, cncf_results):
+    if not MONGODB_URI:
+        print("MONGODB_URI not set, skipping MongoDB persistence.")
+        return
+    try:
+        import pymongo
+        client = pymongo.MongoClient(MONGODB_URI, serverSelectionTimeoutMS=5000)
+        db = client.bounty_radar
+        
+        # Ensure unique index on html_url
+        db.bounties.create_index("html_url", unique=True)
+        
+        now = datetime.now(timezone.utc)
+        upserted_count = 0
+        
+        all_items = []
+        for item in web3_results:
+            all_items.append({**item, "type": "web3_bounty", "updated_at_utc": now})
+        for item in cncf_results:
+            all_items.append({**item, "type": "cncf", "updated_at_utc": now})
+            
+        for item in all_items:
+            db.bounties.update_one(
+                {"html_url": item["html_url"]},
+                {"$set": item, "$setOnInsert": {"discovered_at": now}},
+                upsert=True
+            )
+            upserted_count += 1
+            
+        db.scan_history.insert_one({
+            "timestamp": now,
+            "web3_count": len(web3_results),
+            "cncf_count": len(cncf_results),
+            "status": "success"
+        })
+        print(f"MongoDB Atlas: Successfully synchronized {upserted_count} opportunities into 'bounty_radar.bounties'.")
+    except Exception as e:
+        print(f"MongoDB Atlas sync error (non-fatal): {e}", file=sys.stderr)
 
 def main():
     print("Starting Bounty & CNCF Radar Scan...")
@@ -118,6 +158,9 @@ def main():
 
     # Optional multi-channel alerts
     send_discord_alert(web3_results)
+
+    # Persist to MongoDB Atlas cloud database
+    persist_to_mongodb(web3_results, cncf_results)
 
     # Generate Markdown Report
     report_content = f"""# 📡 Live Bounty & Mentorship Radar Report
