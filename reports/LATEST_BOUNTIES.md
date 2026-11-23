@@ -1,6 +1,6 @@
 # 📡 Live Bounty & Mentorship Radar Report
 
-> **Last Updated:** `2026-11-23 18:51:43 UTC`  
+> **Last Updated:** `2026-11-23 19:00:34 UTC`  
 > **Autonomous Engine:** GitHub Actions 24/7 Cloud Sentinel
 
 ---
@@ -28,7 +28,7 @@
 
 | Project | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
-| `open-telemetry/opentelemetry-kotlin` | [Timeout and duration value `0` are rejected...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1683) | 0 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1683) |
+| `open-telemetry/opentelemetry-kotlin` | [Timeout and duration value `0` are rejected...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1683) | 1 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1683) |
 | `open-telemetry/opentelemetry-kotlin` | [Gracefully handled errors in long-running background lo...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1682) | 0 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1682) |
 | `open-telemetry/opentelemetry-kotlin` | [Instrumentation-scope dropped attribute count is not tr...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1681) | 0 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1681) |
 | `open-telemetry/opentelemetry-go-contrib` | [Correct type names in the Lambda instrumentation option...](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10201) | 2 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10201) |
