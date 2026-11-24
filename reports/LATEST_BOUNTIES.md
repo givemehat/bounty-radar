@@ -1,6 +1,6 @@
 # 📡 Live Bounty & Mentorship Radar Report
 
-> **Last Updated:** `2026-11-23 19:00:34 UTC`  
+> **Last Updated:** `2026-11-24 03:40:42 UTC`  
 > **Autonomous Engine:** GitHub Actions 24/7 Cloud Sentinel
 
 ---
@@ -9,18 +9,18 @@
 
 | Project / Repo | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
-| `XHToken/Spark-X2.6` | [HER Hack-Astron #8 | Spark × SkillHub Agent Skills Chal...](https://github.com/XHToken/Spark-X2.6/issues/32) | 9 | 2026-11-23 | [Inspect Issue](https://github.com/XHToken/Spark-X2.6/issues/32) |
-| `Fractal-Neurons/pacta` | [[Wave 4: 24 × $1.00 USDC | Observed Catalogue] Batch 1 ...](https://github.com/Fractal-Neurons/pacta/issues/158) | 7 | 2026-11-23 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/158) |
-| `IES-BoilerRoom/pcie-tlp-credit-flow-gate` | [($350) perf/fix: Align Posted/Non-Posted header credit ...](https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2) | 2 | 2026-11-23 | [Inspect Issue](https://github.com/IES-BoilerRoom/pcie-tlp-credit-flow-gate/issues/2) |
-| `EliCunninghamDev/haiku-core` | [[BOUNTY] Add printHaiku() — a beautiful haiku to the co...](https://github.com/EliCunninghamDev/haiku-core/issues/1) | 2 | 2026-11-23 | [Inspect Issue](https://github.com/EliCunninghamDev/haiku-core/issues/1) |
-| `Scottcjn/rustchain-bounties` | [[EASY BOUNTY: 2-3 RTC] Find and Report a BoTTube Bug...](https://github.com/Scottcjn/rustchain-bounties/issues/1102) | 360 | 2026-11-23 | [Inspect Issue](https://github.com/Scottcjn/rustchain-bounties/issues/1102) |
-| `Fractal-Neurons/pacta` | [[Wave 4: 15 × $2.00 USDC | Control-Plane Watch] 5 More ...](https://github.com/Fractal-Neurons/pacta/issues/159) | 5 | 2026-11-23 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/159) |
+| `XHToken/Spark-X2.6` | [HER Hack-Astron #8 | Spark × SkillHub Agent Skills Chal...](https://github.com/XHToken/Spark-X2.6/issues/32) | 11 | 2026-11-24 | [Inspect Issue](https://github.com/XHToken/Spark-X2.6/issues/32) |
+| `Scottcjn/rustchain-bounties` | [[EASY BOUNTY: 2-3 RTC] Find and Report a BoTTube Bug...](https://github.com/Scottcjn/rustchain-bounties/issues/1102) | 361 | 2026-11-24 | [Inspect Issue](https://github.com/Scottcjn/rustchain-bounties/issues/1102) |
+| `Scottcjn/rustchain-bounties` | [[Bounty] Add RustChain to Your GitHub Profile README - ...](https://github.com/Scottcjn/rustchain-bounties/issues/515) | 156 | 2026-11-24 | [Inspect Issue](https://github.com/Scottcjn/rustchain-bounties/issues/515) |
+| `auscaster/frantic-board` | [Frantic bounty #97: Your first bounty is on the house (...](https://github.com/auscaster/frantic-board/issues/277) | 156 | 2026-11-24 | [Inspect Issue](https://github.com/auscaster/frantic-board/issues/277) |
+| `mergeos-bounties/mergeos` | [[300 MRG per PR] Test submitted PRs and verify bounty e...](https://github.com/mergeos-bounties/mergeos/issues/64) | 704 | 2026-11-24 | [Inspect Issue](https://github.com/mergeos-bounties/mergeos/issues/64) |
+| `Fractal-Neurons/pacta` | [Proposal: x402 Control-Plane Auditing & Integration Ser...](https://github.com/Fractal-Neurons/pacta/issues/219) | 0 | 2026-11-24 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/219) |
 | `Fractal-Neurons/pacta` | [[Wave 4: 5 × $2.00 USDC | Documents Changed] Open Now (...](https://github.com/Fractal-Neurons/pacta/issues/161) | 4 | 2026-11-23 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/161) |
 | `Fractal-Neurons/pacta` | [x402 verdict endpoint rejects valid EIP-3009 signatures...](https://github.com/Fractal-Neurons/pacta/issues/191) | 1 | 2026-11-22 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/191) |
-| `safetrustcr/dApp-SafeTrust` | [feat(escrow): one shared wallet-signing status componen...](https://github.com/safetrustcr/dApp-SafeTrust/issues/596) | 14 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/596) |
-| `safetrustcr/dApp-SafeTrust` | [feat(escrow): adopt guest-releases and fix role detecti...](https://github.com/safetrustcr/dApp-SafeTrust/issues/593) | 8 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/593) |
-| `safetrustcr/dApp-SafeTrust` | [feat(escrow): full lifecycle timeline from escrow_trans...](https://github.com/safetrustcr/dApp-SafeTrust/issues/594) | 6 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/594) |
-| `safetrustcr/dApp-SafeTrust` | [feat(escrow): open-dispute and resolver screens wired t...](https://github.com/safetrustcr/dApp-SafeTrust/issues/598) | 10 | 2026-11-23 | [Inspect Issue](https://github.com/safetrustcr/dApp-SafeTrust/issues/598) |
+| `safetrustcr/frontend-SafeTrust` | [Dashboard shell: remove the full-screen spinner before ...](https://github.com/safetrustcr/frontend-SafeTrust/issues/784) | 9 | 2026-11-24 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/784) |
+| `safetrustcr/frontend-SafeTrust` | [Dashboard shell: remove the full-screen spinner before ...](https://github.com/safetrustcr/frontend-SafeTrust/issues/785) | 12 | 2026-11-24 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/785) |
+| `safetrustcr/frontend-SafeTrust` | [Dashboard: loading skeletons shaped like each page inst...](https://github.com/safetrustcr/frontend-SafeTrust/issues/781) | 16 | 2026-11-24 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/781) |
+| `safetrustcr/frontend-SafeTrust` | [Quick Actions: each card says where it goes, opens as a...](https://github.com/safetrustcr/frontend-SafeTrust/issues/783) | 11 | 2026-11-24 | [Inspect Issue](https://github.com/safetrustcr/frontend-SafeTrust/issues/783) |
 
 ---
 
@@ -28,16 +28,16 @@
 
 | Project | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
+| `open-telemetry/opentelemetry-collector-contrib` | [Add system.cpu.socket.id and system.cpu.core.id attribu...](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) | 19 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/39333) |
 | `open-telemetry/opentelemetry-kotlin` | [Timeout and duration value `0` are rejected...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1683) | 1 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1683) |
 | `open-telemetry/opentelemetry-kotlin` | [Gracefully handled errors in long-running background lo...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1682) | 0 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1682) |
 | `open-telemetry/opentelemetry-kotlin` | [Instrumentation-scope dropped attribute count is not tr...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1681) | 0 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1681) |
 | `open-telemetry/opentelemetry-go-contrib` | [Correct type names in the Lambda instrumentation option...](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10201) | 2 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10201) |
-| `open-telemetry/opentelemetry-kotlin` | [Schema URL conflicts during resource merge are resolved...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1680) | 0 | 2026-11-23 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1680) |
+| `kubernetes-sigs/headlamp` | [design brainstorm: widescreen / dashboard mode for larg...](https://github.com/kubernetes-sigs/headlamp/issues/1835) | 10 | 2026-11-24 | [View Issue](https://github.com/kubernetes-sigs/headlamp/issues/1835) |
 | `kubernetes-sigs/kubernetes-mixin` | [[Enhancement]: Incorporate Pressure Stall Information (...](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1225) | 6 | 2026-11-22 | [View Issue](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1225) |
 | `kubernetes-sigs/aws-load-balancer-controller` | [Support AWS Shield advanced on NLBs not part of ingress...](https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3752) | 6 | 2026-11-22 | [View Issue](https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3752) |
 | `kubernetes-sigs/cluster-inventory-api` | [Conformance Testing for PlacementDecision API...](https://github.com/kubernetes-sigs/cluster-inventory-api/issues/61) | 9 | 2026-11-21 | [View Issue](https://github.com/kubernetes-sigs/cluster-inventory-api/issues/61) |
 | `kubernetes-sigs/kueue` | [🐛 Helm: `helm upgrade --reuse-values` keeps the previou...](https://github.com/kubernetes-sigs/kueue/issues/19272) | 2 | 2026-11-21 | [View Issue](https://github.com/kubernetes-sigs/kueue/issues/19272) |
-| `kubernetes-sigs/cloud-provider-azure` | [use github pages to host official helm chart repository...](https://github.com/kubernetes-sigs/cloud-provider-azure/issues/1418) | 7 | 2026-11-19 | [View Issue](https://github.com/kubernetes-sigs/cloud-provider-azure/issues/1418) |
 | `jaegertracing/jaeger-ui` | [refactor(TracePage): Decouple view-specific search logi...](https://github.com/jaegertracing/jaeger-ui/issues/4134) | 9 | 2026-11-22 | [View Issue](https://github.com/jaegertracing/jaeger-ui/issues/4134) |
 | `jaegertracing/jaeger-ui` | [Recover from a failed Ask Jaeger chunk load without a p...](https://github.com/jaegertracing/jaeger-ui/issues/4707) | 2 | 2026-11-22 | [View Issue](https://github.com/jaegertracing/jaeger-ui/issues/4707) |
 
