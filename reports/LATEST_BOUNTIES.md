@@ -1,6 +1,6 @@
 # 📡 Live Bounty & Mentorship Radar Report
 
-> **Last Updated:** `2026-11-26 01:24:56 UTC`  
+> **Last Updated:** `2026-11-26 16:08:44 UTC`  
 > **Autonomous Engine:** GitHub Actions 24/7 Cloud Sentinel
 
 ---
@@ -9,11 +9,11 @@
 
 | Project / Repo | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
-| `claude-builders-bounty/claude-builders-bounty` | [[BOUNTY $50] SKILL: Generate a structured CHANGELOG fro...](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1) | 2435 | 2026-11-26 | [Inspect Issue](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1) |
-| `claude-builders-bounty/claude-builders-bounty` | [[BOUNTY $100] HOOK: Pre-tool-use hook that blocks destr...](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3) | 1908 | 2026-11-26 | [Inspect Issue](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3) |
-| `tadanobutubutu/screeps` | [Dependency Dashboard...](https://github.com/tadanobutubutu/screeps/issues/5) | 1203 | 2026-11-26 | [Inspect Issue](https://github.com/tadanobutubutu/screeps/issues/5) |
-| `claude-builders-bounty/claude-builders-bounty` | [[BOUNTY $200] WORKFLOW: n8n + Claude Code — automated w...](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5) | 1304 | 2026-11-25 | [Inspect Issue](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5) |
-| `claude-builders-bounty/claude-builders-bounty` | [[BOUNTY $150] AGENT: Claude Code sub-agent that reviews...](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4) | 1660 | 2026-11-25 | [Inspect Issue](https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4) |
+| `auscaster/frantic-board` | [Frantic bounty #33: Publish Sourcey docs for a maintain...](https://github.com/auscaster/frantic-board/issues/53) | 177 | 2026-11-26 | [Inspect Issue](https://github.com/auscaster/frantic-board/issues/53) |
+| `auscaster/frantic-board` | [Frantic bounty #120: Add a valuable startup offer to So...](https://github.com/auscaster/frantic-board/issues/330) | 1765 | 2026-11-26 | [Inspect Issue](https://github.com/auscaster/frantic-board/issues/330) |
+| `incidere/solana-agent-bounties` | [🪙 [Bounty] [0.09 SOL Zero-Gas] Multi-Channel 2D Kinemat...](https://github.com/incidere/solana-agent-bounties/issues/8) | 9 | 2026-11-26 | [Inspect Issue](https://github.com/incidere/solana-agent-bounties/issues/8) |
+| `auscaster/frantic-board` | [Frantic bounty #136: Add a newly launched startup to St...](https://github.com/auscaster/frantic-board/issues/476) | 310 | 2026-11-26 | [Inspect Issue](https://github.com/auscaster/frantic-board/issues/476) |
+| `incidere/solana-agent-bounties` | [🪙 [Bounty] [0.12 SOL Zero-Gas] Offline Protocol Snapsho...](https://github.com/incidere/solana-agent-bounties/issues/7) | 8 | 2026-11-26 | [Inspect Issue](https://github.com/incidere/solana-agent-bounties/issues/7) |
 | `Fractal-Neurons/pacta` | [Proposal: x402 Control-Plane Auditing & Integration Ser...](https://github.com/Fractal-Neurons/pacta/issues/219) | 0 | 2026-11-24 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/219) |
 | `Fractal-Neurons/pacta` | [[Wave 4: 5 × $2.00 USDC | Documents Changed] Open Now (...](https://github.com/Fractal-Neurons/pacta/issues/161) | 4 | 2026-11-23 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/161) |
 | `Fractal-Neurons/pacta` | [x402 verdict endpoint rejects valid EIP-3009 signatures...](https://github.com/Fractal-Neurons/pacta/issues/191) | 1 | 2026-11-22 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/191) |
@@ -28,17 +28,17 @@
 
 | Project | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
-| `open-telemetry/opentelemetry-go-contrib` | [Add a README for bridges/prometheus...](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10133) | 1 | 2026-11-25 | [View Issue](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10133) |
-| `open-telemetry/opentelemetry-kotlin` | [ReadWriteLogRecord cannot remove attributes...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1394) | 1 | 2026-11-25 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1394) |
+| `open-telemetry/opentelemetry-kotlin` | [Add MetricExporter interface...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1729) | 0 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1729) |
+| `open-telemetry/opentelemetry-kotlin` | [Create stdout metric exporter...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1728) | 0 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1728) |
+| `open-telemetry/opentelemetry-kotlin` | [Avoid allocations in noop metrics implementation...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1727) | 0 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1727) |
+| `open-telemetry/opentelemetry-php` | [Inject a logger into SDK components instead of using th...](https://github.com/open-telemetry/opentelemetry-php/issues/2132) | 4 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-php/issues/2132) |
 | `open-telemetry/opentelemetry-go-contrib` | [Add a README for zpages...](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10154) | 1 | 2026-11-25 | [View Issue](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10154) |
-| `open-telemetry/opentelemetry-go` | [Connect the Trace API README to SDK setup...](https://github.com/open-telemetry/opentelemetry-go/issues/9414) | 3 | 2026-11-25 | [View Issue](https://github.com/open-telemetry/opentelemetry-go/issues/9414) |
-| `open-telemetry/opentelemetry-go` | [Remove obsolete encoding cache claims from attribute.Se...](https://github.com/open-telemetry/opentelemetry-go/issues/9380) | 3 | 2026-11-25 | [View Issue](https://github.com/open-telemetry/opentelemetry-go/issues/9380) |
+| `kubernetes-sigs/kubernetes-mixin` | [[Enhancement]: Incorporate Pressure Stall Information (...](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1225) | 7 | 2026-11-26 | [View Issue](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1225) |
+| `kubernetes-sigs/kubectl-validate` | [Usage with CI?...](https://github.com/kubernetes-sigs/kubectl-validate/issues/23) | 16 | 2026-11-26 | [View Issue](https://github.com/kubernetes-sigs/kubectl-validate/issues/23) |
+| `kubernetes-sigs/container-object-storage-interface` | [Add govulncheck linter...](https://github.com/kubernetes-sigs/container-object-storage-interface/issues/424) | 2 | 2026-11-26 | [View Issue](https://github.com/kubernetes-sigs/container-object-storage-interface/issues/424) |
 | `kubernetes-sigs/external-dns` | [external-dns improve code coverage...](https://github.com/kubernetes-sigs/external-dns/issues/5150) | 19 | 2026-11-25 | [View Issue](https://github.com/kubernetes-sigs/external-dns/issues/5150) |
 | `kubernetes-sigs/aws-load-balancer-controller` | [Support AWS Shield advanced on NLBs not part of ingress...](https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3752) | 5 | 2026-11-25 | [View Issue](https://github.com/kubernetes-sigs/aws-load-balancer-controller/issues/3752) |
-| `kubernetes-sigs/cluster-api-provider-aws` | [Additional Tags do not reconcile on bastion...](https://github.com/kubernetes-sigs/cluster-api-provider-aws/issues/2840) | 16 | 2026-11-24 | [View Issue](https://github.com/kubernetes-sigs/cluster-api-provider-aws/issues/2840) |
-| `kubernetes-sigs/headlamp` | [design brainstorm: widescreen / dashboard mode for larg...](https://github.com/kubernetes-sigs/headlamp/issues/1835) | 10 | 2026-11-24 | [View Issue](https://github.com/kubernetes-sigs/headlamp/issues/1835) |
-| `kubernetes-sigs/kubernetes-mixin` | [[Enhancement]: Incorporate Pressure Stall Information (...](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1225) | 6 | 2026-11-22 | [View Issue](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1225) |
-| `jaegertracing/jaeger` | [Enable more revive linter rules...](https://github.com/jaegertracing/jaeger/issues/5506) | 37 | 2026-11-25 | [View Issue](https://github.com/jaegertracing/jaeger/issues/5506) |
+| `jaegertracing/jaeger` | [Enable more revive linter rules...](https://github.com/jaegertracing/jaeger/issues/5506) | 38 | 2026-11-26 | [View Issue](https://github.com/jaegertracing/jaeger/issues/5506) |
 | `jaegertracing/jaeger-ui` | [refactor(TracePage): Decouple view-specific search logi...](https://github.com/jaegertracing/jaeger-ui/issues/4134) | 9 | 2026-11-22 | [View Issue](https://github.com/jaegertracing/jaeger-ui/issues/4134) |
 
 ---
