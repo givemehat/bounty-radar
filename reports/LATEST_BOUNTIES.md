@@ -1,6 +1,6 @@
 # 📡 Live Bounty & Mentorship Radar Report
 
-> **Last Updated:** `2026-11-26 16:08:44 UTC`  
+> **Last Updated:** `2026-11-27 01:22:45 UTC`  
 > **Autonomous Engine:** GitHub Actions 24/7 Cloud Sentinel
 
 ---
@@ -9,11 +9,11 @@
 
 | Project / Repo | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
-| `auscaster/frantic-board` | [Frantic bounty #33: Publish Sourcey docs for a maintain...](https://github.com/auscaster/frantic-board/issues/53) | 177 | 2026-11-26 | [Inspect Issue](https://github.com/auscaster/frantic-board/issues/53) |
-| `auscaster/frantic-board` | [Frantic bounty #120: Add a valuable startup offer to So...](https://github.com/auscaster/frantic-board/issues/330) | 1765 | 2026-11-26 | [Inspect Issue](https://github.com/auscaster/frantic-board/issues/330) |
-| `incidere/solana-agent-bounties` | [🪙 [Bounty] [0.09 SOL Zero-Gas] Multi-Channel 2D Kinemat...](https://github.com/incidere/solana-agent-bounties/issues/8) | 9 | 2026-11-26 | [Inspect Issue](https://github.com/incidere/solana-agent-bounties/issues/8) |
-| `auscaster/frantic-board` | [Frantic bounty #136: Add a newly launched startup to St...](https://github.com/auscaster/frantic-board/issues/476) | 310 | 2026-11-26 | [Inspect Issue](https://github.com/auscaster/frantic-board/issues/476) |
-| `incidere/solana-agent-bounties` | [🪙 [Bounty] [0.12 SOL Zero-Gas] Offline Protocol Snapsho...](https://github.com/incidere/solana-agent-bounties/issues/7) | 8 | 2026-11-26 | [Inspect Issue](https://github.com/incidere/solana-agent-bounties/issues/7) |
+| `auscaster/frantic-board` | [Frantic bounty #120: Add a valuable startup offer to So...](https://github.com/auscaster/frantic-board/issues/330) | 1765 | 2026-11-27 | [Inspect Issue](https://github.com/auscaster/frantic-board/issues/330) |
+| `IES-BoilerRoom/ebpf-verifier-reg-bounds` | [[350 USDC] Fix ALU64 chunk ceiling boundary and tristat...](https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1) | 2 | 2026-11-26 | [Inspect Issue](https://github.com/IES-BoilerRoom/ebpf-verifier-reg-bounds/issues/1) |
+| `IES-BoilerRoom/nvme-zns-bch-ecc-simulator` | [ci/ftl_ecc: Stabilize polynomial-to-dual-basis trace ta...](https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2) | 0 | 2026-11-26 | [Inspect Issue](https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/2) |
+| `IES-BoilerRoom/nvme-zns-bch-ecc-simulator` | [[$200] fix(ftl_ecc): Resolve ZNS frame length boundary ...](https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1) | 0 | 2026-11-26 | [Inspect Issue](https://github.com/IES-BoilerRoom/nvme-zns-bch-ecc-simulator/issues/1) |
+| `hanzoai/hips` | [[HIP-1347] Umbrella Research Bounties: Event-Driven Age...](https://github.com/hanzoai/hips/issues/17) | 2 | 2026-11-26 | [Inspect Issue](https://github.com/hanzoai/hips/issues/17) |
 | `Fractal-Neurons/pacta` | [Proposal: x402 Control-Plane Auditing & Integration Ser...](https://github.com/Fractal-Neurons/pacta/issues/219) | 0 | 2026-11-24 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/219) |
 | `Fractal-Neurons/pacta` | [[Wave 4: 5 × $2.00 USDC | Documents Changed] Open Now (...](https://github.com/Fractal-Neurons/pacta/issues/161) | 4 | 2026-11-23 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/161) |
 | `Fractal-Neurons/pacta` | [x402 verdict endpoint rejects valid EIP-3009 signatures...](https://github.com/Fractal-Neurons/pacta/issues/191) | 1 | 2026-11-22 | [Inspect Issue](https://github.com/Fractal-Neurons/pacta/issues/191) |
@@ -28,10 +28,10 @@
 
 | Project | Issue Title | Comments | Updated | Action |
 |---|---|:---:|:---:|---|
-| `open-telemetry/opentelemetry-kotlin` | [Add MetricExporter interface...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1729) | 0 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1729) |
+| `open-telemetry/opentelemetry-php` | [Inject a logger into SDK components instead of using th...](https://github.com/open-telemetry/opentelemetry-php/issues/2132) | 5 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-php/issues/2132) |
+| `open-telemetry/opentelemetry-kotlin` | [Add MetricExporter interface...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1729) | 1 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1729) |
 | `open-telemetry/opentelemetry-kotlin` | [Create stdout metric exporter...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1728) | 0 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1728) |
 | `open-telemetry/opentelemetry-kotlin` | [Avoid allocations in noop metrics implementation...](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1727) | 0 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-kotlin/issues/1727) |
-| `open-telemetry/opentelemetry-php` | [Inject a logger into SDK components instead of using th...](https://github.com/open-telemetry/opentelemetry-php/issues/2132) | 4 | 2026-11-26 | [View Issue](https://github.com/open-telemetry/opentelemetry-php/issues/2132) |
 | `open-telemetry/opentelemetry-go-contrib` | [Add a README for zpages...](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10154) | 1 | 2026-11-25 | [View Issue](https://github.com/open-telemetry/opentelemetry-go-contrib/issues/10154) |
 | `kubernetes-sigs/kubernetes-mixin` | [[Enhancement]: Incorporate Pressure Stall Information (...](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1225) | 7 | 2026-11-26 | [View Issue](https://github.com/kubernetes-sigs/kubernetes-mixin/issues/1225) |
 | `kubernetes-sigs/kubectl-validate` | [Usage with CI?...](https://github.com/kubernetes-sigs/kubectl-validate/issues/23) | 16 | 2026-11-26 | [View Issue](https://github.com/kubernetes-sigs/kubectl-validate/issues/23) |
